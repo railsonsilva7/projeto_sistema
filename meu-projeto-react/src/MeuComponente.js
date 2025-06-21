@@ -9,4 +9,12 @@ function MeuComponente() {
     );
 }
 
-export default MeuComponente;
+function BotaoClique() {
+    return (
+        <button>Clique aqui</button>
+    );
+}
+
+
+
+export {MeuComponente, BotaoClique};
